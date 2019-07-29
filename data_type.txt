@@ -1,0 +1,13 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class Ractangle
+    {
+        
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Size of Integer type data : {0}", sizeof(int));
+        }
+    }
+}

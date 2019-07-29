@@ -1,0 +1,15 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class Variable
+    {
+        
+        static void Main(string[] args)
+        {
+            float num;
+            num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The age of : " + num);
+        }
+    }
+}

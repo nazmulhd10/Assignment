@@ -1,0 +1,34 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class Ractangle
+    {
+        //Member Variable
+        double Lenght;
+        double Width;
+
+        public void AcceptDetail()
+        {
+            Lenght = 5.5;
+            Width = 4.5;
+        }
+
+        public double GetArea()
+        {
+            return Lenght * Width;
+        }
+
+        public void Display()
+        {
+            Console.WriteLine("Length : {0}, Width : {1}, Area : {2}", Lenght, Width, GetArea());
+        }
+        static void Main(string[] args)
+        {
+            Ractangle r = new Ractangle();
+            r.AcceptDetail();
+            r.Display();
+            Console.ReadLine();
+        }
+    }
+}

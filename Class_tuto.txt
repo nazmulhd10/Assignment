@@ -1,0 +1,38 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class box
+    {
+        public double length; //Length of a box
+        public double breadth; //Breadth of a box
+        public double height; //Height of a box
+    }
+    class BoxTester
+    {
+        static void Main(string[] args)
+        {
+            box box1 = new box();   //declare box1 type
+            box box2 = new box();   //declare box2 type
+            double volume = 0.0;
+
+            //Box1 specification
+            box1.length = 6.5;
+            box1.breadth = 7.5;
+            box1.height = 5.5;
+
+            //Box2 specification
+            box2.length = 7.5;
+            box2.breadth = 8.5;
+            box2.height = 6.5;
+
+            //Volume of Box1
+            volume = box1.height * box1.breadth * box1.length;
+            Console.WriteLine("The volume of Box1 is : {0}", volume);
+
+            //Volume of Box2 
+            volume = box2.height * box2.breadth * box2.length;
+            Console.WriteLine("The volume of Box2 is: {0}", volume);
+        }
+    }
+}

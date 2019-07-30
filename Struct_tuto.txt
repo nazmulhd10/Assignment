@@ -1,0 +1,24 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class struct_tuto
+    {
+        static void Main(string[] args)
+        {
+            student s1 = new student();
+            s1.FirstName = "Nazmul";
+            s1.LastName = "Huda";
+            s1.age = 28;
+
+            Console.WriteLine("The name of s1 is : {0}{1}{2}", s1.FirstName," ", s1.LastName);
+            Console.WriteLine("Age of the s1 is : {0}", s1.age);
+        }
+    }
+    struct student
+    {
+        public String FirstName;
+        public String LastName;
+        public int age;
+    }
+}

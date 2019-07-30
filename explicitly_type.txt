@@ -1,0 +1,16 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class explicitly_type
+    {
+        static void Main(string[] args)
+        {
+            String name = "Md. Nazmul Huda";//Explicitly type variable
+            int age = 28;// Explicitly type variable
+
+            Console.WriteLine("The Explicitly type name is : {0}",name);
+            Console.WriteLine("The Explicitly type name is : {0}", age);
+        }
+    }
+}

@@ -1,0 +1,23 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    
+    class Dynamic_type
+    {
+        static void Main(string[] args)
+        {
+            dynamic value_is = 28;
+            Console.WriteLine("Dynamic variable value: {0}, Type: {1}", value_is, value_is.GetType().ToString());
+
+            value_is = "Hello World!!";
+            Console.WriteLine("Dynamic variable value: {0}, Type: {1}", value_is, value_is.GetType().ToString());
+
+            value_is = true;
+            Console.WriteLine("Dynamic variable value: {0}, Type: {1}", value_is, value_is.GetType().ToString());
+
+            value_is = DateTime.Now;
+            Console.WriteLine("Dynamic variable value: {0}, Type: {1}", value_is, value_is.GetType().ToString());
+        }
+    }
+}

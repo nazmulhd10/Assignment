@@ -1,0 +1,20 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class Anonymus_type
+    {
+        static void Main(string[] args)
+        {
+            var student = new
+            {
+                name = "Md. Nazmul Huda",
+                age = 28
+
+            };
+
+
+            Console.WriteLine("The Anonymus type is : {0}",student);
+        }
+    }
+}

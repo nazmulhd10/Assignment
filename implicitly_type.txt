@@ -1,0 +1,14 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class implicitly_type
+    {
+        static void Main(string[] args)
+        {
+            var name = "Md. Nazmul Huda";//implicitly type variable
+
+            Console.WriteLine("The inplicitly type name is : {0}",name);
+        }
+    }
+}

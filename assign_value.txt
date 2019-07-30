@@ -1,0 +1,32 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class struct_tuto
+    {
+        static void Main(string[] args)
+        {
+            student s1 = new student();
+            s1.FirstName = "Nazmul";
+            s1.LastName = "Huda";
+            s1.age = 28;
+
+            student s2 = s1;
+            s1.FirstName = "Kamal";
+            s1.LastName = "Mia";
+            s1.age = 28;
+
+            student s3 = s2;
+
+            Console.WriteLine("Student s1 : {0}{1}{2} Age : {3}{4}", s1.FirstName," ", s1.LastName," ",s1.age);
+            Console.WriteLine("Student s2 : {0}{1}{2} Age : {3}{4}", s2.FirstName, " ", s2.LastName, " ", s2.age);
+            Console.WriteLine("Student s3 : {0}{1}{2} Age : {3}{4}", s3.FirstName, " ", s3.LastName, " ", s3.age);
+        }
+    }
+    struct student
+    {
+        public String FirstName;
+        public String LastName;
+        public int age;
+    }
+}

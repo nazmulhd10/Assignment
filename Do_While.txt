@@ -1,0 +1,23 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            int x = 10;
+            int y = 60;
+            double z = x + y;
+
+            do
+            {
+                Console.WriteLine("Result z is : {0}", z);
+                z++;
+            }
+            while (z <= 100);
+
+        }
+    }
+}

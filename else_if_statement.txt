@@ -1,0 +1,23 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            int x = 10;
+            int y = 60;
+            double z = x + y;
+
+            if (z < 100)
+                Console.WriteLine("Result is Less then or Equal 100");
+            else if (z == 100)
+                Console.WriteLine("Result is Equal to 100");
+            else
+                Console.WriteLine("The Result is Gratter than 100");
+
+        }
+    }
+}

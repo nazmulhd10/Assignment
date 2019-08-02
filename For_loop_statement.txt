@@ -1,0 +1,21 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            int x = 10;
+            int y = 60;
+            double z = x + y;
+
+            for(int i = 60; i <= z; i++)
+            {
+                Console.WriteLine("Result is : {0}", i);
+            }
+
+        }
+    }
+}

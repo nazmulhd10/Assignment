@@ -1,0 +1,50 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String[] Array1, Array2, Array3;
+
+            Array1 = new string[7]
+            {
+                "Karim",
+                "Rahim",
+                "Jamal",
+                "Kamal",
+                "Jasim",
+                "Kasim",
+                "Nesar"
+            };
+
+            Array2 = new string[5]
+            {
+                "Cat",
+                "Cow",
+                "Dog",
+                "Bird",
+                "Chicken"
+            };
+
+            Array3 = new string[5]
+            {
+                "2 Month",
+                "3 Month",
+                "4 Month",
+                "5 Month",
+                "6 Month",
+            };
+
+            Console.WriteLine(Array1.Length);
+            Console.WriteLine(Array2.Length);
+            Console.WriteLine(Array3.Length);
+            Console.WriteLine(Array1[1]+" "+"Like"+" "+Array2[1]+" "+"For"+" "+Array3[1]);
+            Console.WriteLine(Array1[2] + " " + "Like" + " " + Array2[2] + " " + "For" + " " + Array3[2]);
+            Console.WriteLine(Array1[3] + " " + "Like" + " " + Array2[3] + " " + "For" + " " + Array3[3]);
+            Console.WriteLine(Array1[4] + " " + "Like" + " " + Array2[4] + " " + "For" + " " + Array3[4]);
+            Console.WriteLine(Array1[0] + " " + "Like" + " " + Array2[0] + " " + "For" + " " + Array3[0]);
+        }
+    }
+}

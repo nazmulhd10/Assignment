@@ -1,0 +1,26 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class Program
+    {
+        enum WeekDays
+        {
+            Saturday,
+            Sunday,
+            Monday,
+            Twesday,
+            Wednessday,
+            Thursday,
+            Friday
+        }
+
+        static void Main(string[] args)
+        {
+         
+        Console.WriteLine(WeekDays.Friday);
+        Console.WriteLine(Enum.GetName(typeof(WeekDays), 4));
+
+        }
+    }
+}

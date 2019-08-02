@@ -1,0 +1,32 @@
+using System;
+
+namespace VusualStudioLearning
+{
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            int x = 10;
+            int y = 60;
+            double z = x + y;
+
+            switch (z)
+            {
+                case 60:
+                    Console.WriteLine("Result z is : 60");
+                    break;
+                case 70:
+                    Console.WriteLine("Result z is : 70");
+                    break;
+                case 80:
+                    Console.WriteLine("Result z is : 80");
+                    break;
+                default:
+                    Console.WriteLine("Result z not matches");
+                    break;
+            }
+
+        }
+    }
+}

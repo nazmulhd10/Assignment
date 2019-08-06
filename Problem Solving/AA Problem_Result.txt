@@ -4,4 +4,6 @@
 2)	DCP-27: Is It Prime? 
 	WrongAnswer
 ----------------------------------
-3)	
+3)	DCP-184: Easy Sequence 
+	WrongAnswer
+-----------------------------------

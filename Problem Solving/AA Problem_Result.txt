@@ -1,4 +1,7 @@
 1)	DCP-167: High school series 
 	Result: RunTimeError
 -----------------------------------
-2)	
+2)	DCP-27: Is It Prime? 
+	WrongAnswer
+----------------------------------
+3)	
